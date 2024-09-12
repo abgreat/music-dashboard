@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   push:
-    branches: gh-pages
+    branches: main
     schedule:   
       -cron:'59 23 * * *'
       
